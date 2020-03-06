@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>414911007240-ucve2r40rhag5mvpisgep6hjj24ui0vh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.414911007240-ucve2r40rhag5mvpisgep6hjj24ui0vh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAkXSwp69ISh0gfC-kG_MbxO8raF3DFYg4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>414911007240</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tours.shoong</string>
+	<key>PROJECT_ID</key>
+	<string>shoong-user-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shoong-user-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:414911007240:ios:bdad778611fbc742e21fbd</string>
+	<key>DATABASE_URL</key>
+	<string>https://shoong-user-app.firebaseio.com</string>
+</dict>
+</plist>
