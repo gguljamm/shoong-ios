@@ -224,8 +224,8 @@ struct ChatRoom : View {
                 if let error = error {
                     print("Data error: \(error)")
                 } else {
-                    let myPic = UserDefaults.standard.value(forKey: "userName") as? String ?? ""
-                    let myName = UserDefaults.standard.value(forKey: "image") as? String ?? ""
+                    let myName = self.memberName
+                    let myPic = UserDefaults.standard.value(forKey: "image") as? String ?? ""
                     for (key, _) in self.member {
                         let lastChtDic = ["name": myName, "pic": myPic, "stamp": [".sv": "timestamp"], "unread": 0, "lastmsg": self.txt] as [String : Any]
                         ref.child("userList").child(key).child("chatList").child(self.roomid).setValue(lastChtDic)

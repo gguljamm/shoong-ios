@@ -112,11 +112,13 @@ struct SignupPage : View {
             guard let _ = authResult?.user, error == nil else {
                 let errorText: String = error?.localizedDescription ?? "unknown error"
                 self.errorText = errorText
+                self.loading.toggle()
                 return
             }
             Auth.auth().currentUser?.sendEmailVerification { (error) in
                 if let error = error {
                     self.errorText = error.localizedDescription
+                    self.loading.toggle()
                     return
                 }
                 self.showAlert.toggle()
